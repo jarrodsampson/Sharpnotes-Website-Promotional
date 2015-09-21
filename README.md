@@ -5,4 +5,4 @@ Sharpnotes App for Android Single Page Website
 ![Release Version](http://img.shields.io/github/release/stevenbenner/jquery-powertip.svg)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-![Atom](http://planlodge.com/github/record.gif)
+![Atom](https://github.com/planlodge/NodeJS-Sharpnotes-Sample-Web-App/blob/master/public/assets/record.gif)

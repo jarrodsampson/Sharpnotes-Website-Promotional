@@ -1,2 +1,2 @@
-# NodeJS-Sharpnotes-Sample-Web-App
-Sharpnotes for Android Single Page Website
+# NodeJS Sharpnotes Sample Web App
+Sharpnotes App for Android Single Page Website

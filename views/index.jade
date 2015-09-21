@@ -1,0 +1,208 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='google-site-verification', content='Qt5t1aonh7E8xagwixqiZckVpJFxAfz8-C5_NZrL8PY')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    meta(name='description', content='Keep all your notes together with this simple notepad application. SharpNotes!')
+    meta(name='author', content='Jarrod Sampson')
+    //if IE
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    // Favicon Icon
+    link(rel='shortcut icon', type='image/png', href='/img/sharpnote.png')
+    title SharpNotes | Planlodge
+    // BOOTSTRAP CORE CSS
+    link(href='/css/bootstrap.css', rel='stylesheet')
+    // ION ICONS STYLES
+    link(href='/css/ionicons.css', rel='stylesheet')
+    // FONT AWESOME ICONS STYLES
+    link(href='/css/font-awesome.css', rel='stylesheet')
+    // Animate CSS
+    link(href='/css/animate.css', rel='stylesheet')
+    // Headroom
+    link(href='/css/headroom.css', rel='stylesheet')
+    // CUSTOM CSS
+    link(href='/css/style.css', rel='stylesheet')
+    // IE10 viewport hack
+    script(src='/js/ie-10-view-port.js')
+    // HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body#top
+    // HEADER SECTION START
+    header#header.header.header--fixed.navbar.navbar-fixed-top
+      .container
+        .row
+          .col-lg-6.col-md-6.col-sm-6.col-xs-12.logo-wrapper.scroll-me
+            a(href='#home')
+              h2#big SharpNotes
+              h3#smaller2 SharpNotes
+          .text-right
+            .menu-links.scroll-me
+              a(href='#about', data-toggle='tooltip', data-placement='bottom', title="What's it All About?")
+                i.ion-ios-camera-outline
+              a(href='#clients', data-toggle='tooltip', data-placement='bottom', title='Screenshots')
+                i.ion-ios-grid-view-outline
+              a(href='#contact', data-toggle='tooltip', data-placement='bottom', title='Contact Us')
+                i.ion-ios-chatboxes-outline
+    // HEADER SECTION END
+    // HOME SECTION START
+    #home
+      .overlay.wow.fadeIn
+        .container
+          .row.scroll-me
+            .col-lg-6.col-md-6.col-sm-6.col-xs-12
+              h1.wow.fadeIn SharpNotes
+              h4.wow.slideInRight
+                | Keep all your notes together with this simple notepad application.
+              a.btn.btn-custom.btn-two.wow.fadeInUp(href='#', data-toggle='modal', data-target='#downloadModal') Download
+              a.btn.btn-custom.btn-one.wow.fadeInUp(href='#about') Features 
+    // HOME SECTION END
+    // ABOUT SECTION START
+    section#about
+      .container.wow.bounceInUp
+        .row
+          .col-lg-6.col-md-6.col-sm-6.col-xs-12
+            h2.head-line Hello SharpNotes!
+            p
+              | Simplicity at its finest. No Ads, no annoying popups, just a plain notepad.
+            .row.text-center
+              .col-lg-12.col-md-12.col-sm-12.col-xs-12
+                .row.pad-bottom
+                  .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                    .icon-wrapper
+                      i.ion-tshirt-outline
+                    h4 Simple Management
+                    |  Add, Edit, View, and Delete your notes.
+                  .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                    .icon-wrapper
+                      i.ion-monitor
+                    h4 Awesome Enhancements  
+                    |  Check out SharpNotes Lite and SharpNotes Plus.
+                  .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                    .icon-wrapper
+                      i.ion-clipboard
+                    h4 Multipurpose Use
+                    |                                     Made for phones and Tablets with no ads!
+          .col-lg-6.col-md-6.col-sm-6.col-xs-12.text-center
+            img.img-side.lazy(data-original='/img/sharpnote.png', alt='')
+    // ABOUT SECTION END
+    // CLIENTS SECTION START
+    section#clients
+      .overlay.wow.fadeIn
+        .container
+          .row.text-center
+            .col-lg-6.col-md-6.col-sm-6.col-xs-12
+            .col-lg-6.col-md-6.col-sm-6.col-xs-12.client-cover
+              #carousel-example.carousel.slide(data-ride='carousel')
+                h1 ScreenShots
+                .carousel-inner
+                  .item.active
+                    .testimonial-section
+                      img(src='/img/screen1.png', width='200', height='350')
+                  .item
+                    .testimonial-section
+                      img(src='/img/screen2.png', width='200', height='350')
+                  .item
+                    .testimonial-section
+                      img(src='/img/screen3.png', width='200', height='350')
+                  .item
+                    .testimonial-section
+                      img(src='/img/screen4.png', width='200', height='350')
+                  // INDICATORS
+                  ol.carousel-indicators.carousel-indicators-set
+                    li.active(data-target='#carousel-example', data-slide-to='0')
+                    li(data-target='#carousel-example', data-slide-to='1')
+                    li(data-target='#carousel-example', data-slide-to='2')
+                    li(data-target='#carousel-example', data-slide-to='3')
+    // CLIENTS SECTION END
+    // FEATURES SECTION START
+    section#features
+      .container
+        .row.text-center
+          .col-lg-4.col-md-4.col-sm-4.col-xs-12.wow.tada(data-wow-delay='0.3s')
+            .icon-wrapper
+              i.ion-chatboxes
+            h4 Stable relaese  
+            |  Version 1.0 Deployed 07/02/2015.
+          .col-lg-4.col-md-4.col-sm-4.col-xs-12.scroll-me.wow.tada
+            h2.head-line Resources
+            p
+              | Contact Us for support.
+            a.btn.btn-custom.btn-three(href='#contact') Information
+          .col-lg-4.col-md-4.col-sm-4.col-xs-12.wow.tada(data-wow-delay='0.6s')
+            a#black-link(href='https://play.google.com/store/search?q=planlodge', target='_blank')
+              .icon-wrapper
+                i.ion-email-unread
+              h4 More Apps  
+              |  View the full store here.
+    // FEATURES SECTION END
+    // CONTACT SECTION START
+    section#contact
+      .overlay.wow.fadeIn
+        .container
+          .row.text-center
+            .col-lg-6.col-md-6.col-sm-6.col-xs-12.contact-cover
+              h2 Planlodge
+              h3
+                a(style='color:white;text-decoration:none;', href='mailto:jarrod.sampson@gmail.com') Contact
+              h3 United States 
+              .space  
+              .social
+                a(href='https://www.facebook.com/jarrodsampson11/', target='_blank')
+                  i.fa.fa-facebook
+                a(href='https://play.google.com/store/search?q=planlodge', target='_blank')
+                  i.fa.fa-android
+                a(href='https://www.linkedin.com/pub/jarrod-sampson/59/4b6/984/', target='_blank')
+                  i.fa.fa-linkedin
+    // CONTACT SECTION END
+    // FOOTER SECTION START
+    footer
+      .container
+        .row.text-center
+          .col-lg-12.col-md-12.col-sm-12
+            | © 2015 Sharpnotes | by
+            a(href='http://www.jarrodsampson.me/', target='_blank') Planlodge 
+    // FOOTER SECTION END
+    // Page lights
+    #fadeBottom
+    // Modal
+    #downloadModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            h4#myModalLabel.modal-title Pick a Store:
+          .modal-body
+            h3 Google Play
+            p
+              a(target='_blank', href='https://play.google.com/store/apps/details?id=planlodge.j2gliteware.sharpnotes') Download
+            h3 Amazon App Store
+            p
+              a(target='_blank', href='http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dmobile-apps&field-keywords=sharpnotes') Download
+            h3 Opera Mobile Store
+            p
+              a(target='_blank', href='http://apps.opera.com/en_us/sharpnotes.html?pm=1&multi=1') Download
+          .modal-footer
+            button.btn.btn-default(type='button', data-dismiss='modal') Close
+    .scroll-up(data-toggle='tooltip', data-placement='left', title='Back to Top')
+      a(href='#top')
+        i.fa.fa-angle-up
+    // JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME
+    // CORE JQUERY  SCRIPTS
+    script(src='/js/jquery-1.11.1.js')
+    // BOOTSTRAP SCRIPTS
+    script(src='/js/bootstrap.js')
+    // SCROLLING SCRIPTS PLUGIN
+    script(src='/js/jquery.easing.min.js')
+    // Animations
+    script(src='/js/wow.min.js')
+    // Lazy load
+    script(src='/js/lazyload.js')
+    // headroom
+    script(src='/js/headroom.js')
+    // CUSTOM SCRIPTS
+    script(src='/js/custom.js')

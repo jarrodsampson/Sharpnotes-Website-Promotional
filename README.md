@@ -5,4 +5,4 @@ Sharpnotes App for Android Single Page Website
 ![Release Version](https://img.shields.io/badge/Release-v 1.1-orange.svg)
 ![License](https://img.shields.io/badge/License-GPU-orange.svg)
 
-![Atom](https://github.com/planlodge/NodeJS-Sharpnotes-Sample-Web-App/blob/master/public/assets/record.gif)
+![GIF](https://github.com/planlodge/NodeJS-Sharpnotes-Sample-Web-App/blob/master/public/assets/record.gif)

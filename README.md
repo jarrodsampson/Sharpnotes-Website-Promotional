@@ -1,4 +1,4 @@
-# NodeJS Sharpnotes Sample Web App 
+# NodeJS Sharpnotes Sample Web App
 Sharpnotes App for Android Single Page Website
 
 [![Build Status](https://img.shields.io/badge/Build-Passed-orange.svg)](https://travis-ci.org/stevenbenner/jquery-powertip)

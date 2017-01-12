@@ -9,4 +9,4 @@ Promotional Webpage for Android Application
 
 ## License
 
-Battery Life is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+SharpNotes is licensed under the [MIT license](http://opensource.org/licenses/MIT).

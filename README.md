@@ -1,5 +1,5 @@
-# NodeJS Sharpnotes Sample Web App
-Promotional Webpage for Android Application
+# Sharpnotes for Android
+Promotional SPA for Android Application made with NodeJS hosted on Heroku
 
 [![Build Status](https://img.shields.io/badge/Build-Passed-orange.svg)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![Release Version](https://img.shields.io/badge/Release-v 1.1-orange.svg)
